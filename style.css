@@ -1,0 +1,26 @@
+.square{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+
+}
+
+#square_blue{
+    background-color: blue;
+}
+
+#square_red{
+    background-color: red;
+}
+
+#square_green{
+    background-color: green;
+}
+
+#square_yellow{
+    background-color: yellow;
+}
+
+#square_purple{
+    background-color: purple;
+}
