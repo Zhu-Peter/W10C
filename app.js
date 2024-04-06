@@ -42,3 +42,15 @@ squarePurple.addEventListener("mouseover", function(){
 squarePurple.addEventListener("mouseleave", function(){
     this.innerHTML = originalText;
 })
+
+// bonus
+setTimeout(function() {
+    document.body.style.backgroundColor = 'lightblue';
+    document.getElementById("timer").innerHTML = "<h2>It has been 15 seconds</h2>";
+}, 15000);
+
+setInterval(function(){
+    let randX = Math.floor(-Math.random() * 90);
+    let randY = Math.floor(Math.random() * 80);
+    squareGreen.style.transform = `translate(${randX}vw, ${randY}vh)`
+}, 3000);
