@@ -42,3 +42,7 @@ h1 {
 #square_yellow>h1{
     color: black;
 }
+
+.secret_text{
+    display: none;
+}
